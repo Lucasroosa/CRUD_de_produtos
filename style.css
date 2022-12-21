@@ -1,0 +1,8 @@
+#tamanhoContainer {
+    width: 500px;
+}
+#botao {
+    background-color: #00AEBC;
+    color: #ffffff;
+    font-weight: bold;
+}
