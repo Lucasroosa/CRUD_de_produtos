@@ -3,7 +3,7 @@ include 'conexao.php';
 
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM `estoque` WHERE id_estoque = $id";
+    $sql = "DELETE FROM `fornecedor` WHERE id_fornecedor = $id";
     $deletar = mysqli_query($conexao,$sql);
 
 ?>
@@ -14,9 +14,8 @@ include 'conexao.php';
     <center>
         <h3>Deletador com sucesso!</h3>
         <div style="margin-top: 20px">
-            <a href="listar_produtos.php"  role="button" class="btn btn-sm btn-primary" style="margin-top: 50px">Voltar</a>
+            <a href="listar_fornecedor.php"  role="button" class="btn btn-sm btn-primary" style="margin-top: 50px">Voltar</a>
         </div>
     </center>
 </div>
-
 
